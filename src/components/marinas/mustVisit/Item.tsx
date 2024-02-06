@@ -16,7 +16,7 @@ const Item = ({
   link,
 }: IProps) => {
   return (
-    <article className=" relative bg-white max-w-[380px] pb-10">
+    <article className=" relative bg-white max-w-[370px] pb-10 mx-auto">
       <img
         src={image}
         alt="Destinations image"

@@ -38,7 +38,7 @@ const MarinasImage = ({
         <h4 className="text-3xl">{heading}</h4>
         <p className="max-w-xl">{paragraph}</p>
         {link ? (
-          <Link to={link} >
+          <Link to={link} onClick={() => window.scrollTo(0, 0)}>
             <button className="border border-black rounded-sm px-6 py-2 capitalize w-full lg:w-fit  hover:bg-black hover:text-white transition">
               {action}
             </button>

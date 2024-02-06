@@ -6,7 +6,7 @@ const MarinasImageSection = () => {
   const matches = IsWideScreen();
 
   return (
-    <div className="container">
+    <div className="container pb-10 lg:pb-0">
       {marinasFirstSection.map((item, i) => {
         const px = matches ? -65 * i : 0;
         return (
