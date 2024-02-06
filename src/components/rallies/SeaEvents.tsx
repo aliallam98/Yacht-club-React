@@ -1,4 +1,3 @@
-import React from "react";
 import { seaEvents } from "../../constants";
 import EventItem from "./EventItem";
 
